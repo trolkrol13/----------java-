@@ -1,0 +1,25 @@
+program Project1;
+
+uses
+  Forms,
+  Unit1 in 'Unit1.pas' {Form1},
+  Unit3 in 'Unit3.pas' {FormHolsted},
+  Unit2 in 'Unit2.pas' {FormChepina},
+  Unit4 in 'Unit4.pas' {FormGlobal},
+  Unit5 in 'Unit5.pas' {FormMyersa},
+  Unit6 in 'Unit6.pas' {FormMcCabe},
+  Unit7 in 'Unit7.pas' {FormSpena};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFormHolsted, FormHolsted);
+  Application.CreateForm(TFormChepina, FormChepina);
+  Application.CreateForm(TFormGlobal, FormGlobal);
+  Application.CreateForm(TFormMyersa, FormMyersa);
+  Application.CreateForm(TFormMcCabe, FormMcCabe);
+  Application.CreateForm(TFormSpena, FormSpena);
+  Application.Run;
+end.

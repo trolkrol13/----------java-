@@ -1,0 +1,12 @@
+﻿
+/* str="ghj */
+str = " /* ";
+
+  global $b[0] = 34; 
+  global $b[1] = 21; 
+  global $b[2] = 52;
+
+/* iui"; */
+
+/* hello */
+
